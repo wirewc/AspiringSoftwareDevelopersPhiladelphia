@@ -1,15 +1,42 @@
-h1{
+
+html{
+    background-color:rgb(153, 175, 167)
+}
+
+.main-header{
     text-align: center;
    background-color: rgb(24, 90, 68);
-    color:rgb(123, 182, 5);
-    
+}
+
+h1{
+    font-size:70px;
+    color:rgb(123, 182, 5);     
 }
 
 h2{
-    background-color: wheat;
-    color: ;
+    background-color: rgb(238, 175, 57);
+    color: white;
+    font-size:40px;
+    border: 2px solid rgb(112, 10, 49);
 }
 
-html{
-    background-color: rgb(194, 142, 142);
+h3{
+    font-size:20px;
+}
+
+
+
+
+#primary-content{
+    border:3px solid red;
+}
+
+#main-footer{
+    padding-top:60px;
+    padding-bottom: 60px;
+    border-bottom:solid 10px black;
+}
+
+.paragf{
+    background-color: lightgray;
 }
