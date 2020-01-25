@@ -13,7 +13,7 @@ h1{
     color:rgb(123, 182, 5);     
 }
 
-h2{
+.sub-heading{
     background-color: rgb(238, 175, 57);
     color: white;
     font-size:40px;
@@ -41,4 +41,11 @@ h3{
 
 #eye{
     border-radius: 50%;
+}
+
+#contact{
+    background-color: rgb(238, 175, 57);
+    color: rgb(88, 2, 2);
+    font-size:40px;
+    border: 2px solid rgb(112, 10, 49);
 }
