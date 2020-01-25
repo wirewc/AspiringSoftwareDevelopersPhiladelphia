@@ -25,8 +25,6 @@ h3{
 }
 
 
-
-
 #primary-content{
     border:3px solid red;
 }
@@ -39,4 +37,8 @@ h3{
 
 .paragf{
     background-color: lightgray;
+}
+
+#eye{
+    border-radius: 50%;
 }
