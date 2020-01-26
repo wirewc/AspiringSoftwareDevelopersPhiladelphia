@@ -4,9 +4,47 @@ html{
 }
 
 .main-header{
-    text-align: center;
+   text-align: auto;
    background-color: rgb(24, 90, 68);
+   text-transform: uppercase;
+   font-family: sans-serif;
+   padding: 1% 5%;
+   padding-right: 85%;
+   border-top:10px 10px solid rgb(238, 175, 57);
+   margin-right:350px;
+   background-image: url("thirdeye.jpg");
+   margin-left:100px;
+   border-radius: 5%;
 }
+
+#title{
+    color:teal;
+    line-height: 60px;
+    font-size: 70px;
+}
+
+Aside > ul{
+    display: table-row; 
+}
+
+Aside > ul > li {
+	display: table-cell;
+    text-align: center;
+    width:2%;
+    font-weight: bolder;
+}
+
+
+.Ste{
+    color:rgb(238, 175, 57);
+}
+
+Aside > table > tr {
+    display: block;
+    font-size: 10px ;
+}
+
+
 
 h1{
     font-size:70px;
@@ -18,10 +56,16 @@ h1{
     color: white;
     font-size:40px;
     border: 2px solid rgb(112, 10, 49);
+    margin:1.5em;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h3{
     font-size:20px;
+    border:3px solid teal;
+    margin-right: 1760px;
+    background-color: wheat;
 }
 
 
@@ -37,9 +81,16 @@ h3{
 
 .paragf{
     background-color: lightgray;
+    font-size:1.25em;
 }
 
-#eye{
+#eyeone{
+    border-radius: 50%;
+    position: relative;
+    top:-400px;
+}
+
+#eyetwo{
     border-radius: 50%;
 }
 
@@ -48,4 +99,26 @@ h3{
     color: rgb(88, 2, 2);
     font-size:40px;
     border: 2px solid rgb(112, 10, 49);
+    width:150px;
 }
+
+a:link{
+    color:rgb(235, 236, 229);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(220, 228, 223);
+}
+
+a:hover{
+    color:rgb(3, 58, 3);
+}
+
+#main-content{
+    width:60%
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+
