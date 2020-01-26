@@ -65,8 +65,9 @@ h1{
 h3{
     font-size:20px;
     border:3px solid teal;
-    margin-right: 1760px;
+    margin-right: 1750px;
     background-color: wheat;
+    text-align: center;
 }
 
 
@@ -122,8 +123,3 @@ a:hover{
     line-height: 1.5;
 }
 
-/*Media Queries */
-@media  (max-width:960px) {
-    
-}
- 
