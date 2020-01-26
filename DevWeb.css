@@ -48,7 +48,8 @@ Aside > table > tr {
 
 h1{
     font-size:70px;
-    color:rgb(123, 182, 5);     
+    color:rgb(123, 182, 5);   
+    text-shadow:-5px -8px 0 rgb(72, 105, 40);  
 }
 
 .sub-heading{
@@ -121,4 +122,8 @@ a:hover{
     line-height: 1.5;
 }
 
-
+/*Media Queries */
+@media  (max-width:960px) {
+    
+}
+ 
